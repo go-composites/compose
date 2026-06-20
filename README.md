@@ -2,6 +2,8 @@
 
 # Compose
 
+[![ci](https://github.com/go-composites/compose/actions/workflows/ci.yml/badge.svg)](https://github.com/go-composites/compose/actions/workflows/ci.yml)
+
 `compose` is the centerpiece primitive of [go-composites](https://github.com/go-composites) — the operation that names the org. It provides **railway-oriented** pipelines: small steps composed left-to-right that thread a [`Result`](https://github.com/go-composites/result) along a success track and short-circuit onto an error track the instant something fails.
 
 ## Railway-oriented composition
