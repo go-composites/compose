@@ -1,0 +1,16 @@
+version: "3"
+
+tasks:
+  init:
+    desc: Initialize the Go module
+    cmds:
+    - |
+    
+      go mod init github.com/go-composites/compose
+
+  requirements:
+    desc: Add module requirements and sums
+    cmds:
+    - |
+    
+      go mod tidy
