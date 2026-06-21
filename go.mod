@@ -1,16 +1,16 @@
 module github.com/go-composites/compose
 
-go 1.21.6
+go 1.26.4
 
 require (
-	github.com/go-composites/error v0.0.0-20260620121136-21c3a07f0b1e
-	github.com/go-composites/result v0.0.0-20260620121141-63565a6be1c3
+	github.com/go-composites/error v0.0.0-20260621061850-8f949885a586
+	github.com/go-composites/result v0.0.0-20260621061851-32adc2fb3ac2
 	github.com/onsi/ginkgo/v2 v2.19.0
 	github.com/onsi/gomega v1.33.1
 )
 
 require (
-	github.com/go-composites/null v0.0.0-20260620115053-4c4729da2abd // indirect
+	github.com/go-composites/null v0.0.0-20260621061849-c8074799d5aa // indirect
 	github.com/go-logr/logr v1.4.1 // indirect
 	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
