@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 env:
-  COVERAGE_MIN: "95.0"
+  COVERAGE_MIN: "100.0"
 
 jobs:
   native:
