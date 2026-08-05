@@ -47,6 +47,8 @@ Semantics:
 
 ```go
 import (
+	"strconv"
+
 	Compose "github.com/go-composites/compose/src"
 	Error "github.com/go-composites/error/src"
 	Result "github.com/go-composites/result/src"
