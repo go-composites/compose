@@ -2,6 +2,8 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/go-composites/error v0.0.0-20260621061850-8f949885a586 h1:gA6h4DA7NSiDoqwYDMUlQ2LO/dWx3VBq41nHIMQJskI=
 github.com/go-composites/error v0.0.0-20260621061850-8f949885a586/go.mod h1:9Lf1BQDdG/DDzw+WaWctBOzk69PTLjREAiPcKfSUilU=
+github.com/go-composites/error v0.0.0-20260830075421-e9e68493eded h1:lVkmXqI0GyJ7qfCXL9RptTb9HhCIh+2dsXoQ6N2N8BE=
+github.com/go-composites/error v0.0.0-20260830075421-e9e68493eded/go.mod h1:8/Ur4dmauQ+KrNkBsrvu8fiWnkcMJO5ybJksQL9Auf8=
 github.com/go-composites/null v0.0.0-20260621061849-c8074799d5aa h1:C7LXruttK94qEUNp4HV5Cqcxt+kp5NXSB0nxKVa0N+c=
 github.com/go-composites/null v0.0.0-20260621061849-c8074799d5aa/go.mod h1:6cSkTkpvobmk2/FSOCRu928lYmWCp87HyCSffyQFhVk=
 github.com/go-composites/result v0.0.0-20260621061851-32adc2fb3ac2 h1:viW4pFFcVIZI7r/2I5LzjrHti/w4yaj4YbD8CdfrOHg=
