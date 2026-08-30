@@ -6,6 +6,8 @@ github.com/go-composites/null v0.0.0-20260621061849-c8074799d5aa h1:C7LXruttK94q
 github.com/go-composites/null v0.0.0-20260621061849-c8074799d5aa/go.mod h1:6cSkTkpvobmk2/FSOCRu928lYmWCp87HyCSffyQFhVk=
 github.com/go-composites/result v0.0.0-20260621061851-32adc2fb3ac2 h1:viW4pFFcVIZI7r/2I5LzjrHti/w4yaj4YbD8CdfrOHg=
 github.com/go-composites/result v0.0.0-20260621061851-32adc2fb3ac2/go.mod h1:gvGXTgh97uhqQjR16Te5aGr/Y4g1xQXDHc2nNYEj8/Y=
+github.com/go-composites/result v0.0.0-20260830075423-4c0f0e8854cc h1:sLc9uhHzXlP39tvKybmHKtof9kQyNWz8MAG5ZxA/r3Y=
+github.com/go-composites/result v0.0.0-20260830075423-4c0f0e8854cc/go.mod h1:U8jOcQwbbSwQ3E5geccvv0lkwNv89piHYG/Jj1w18JQ=
 github.com/go-logr/logr v1.4.1 h1:pKouT5E8xu9zeFC39JXRDukb6JFQPXM5p5I91188VAQ=
 github.com/go-logr/logr v1.4.1/go.mod h1:9T104GzyrTigFIr8wt5mBrctHMim0Nb2HLGrmQ40KvY=
 github.com/go-task/slim-sprig/v3 v3.0.0 h1:sUs3vkvUymDpBKi3qH1YSqBQk9+9D/8M2mN1vB6EwHI=
