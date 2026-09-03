@@ -51,6 +51,57 @@ jobs:
               || { echo "coverage ${total}% < ${COVERAGE_MIN}%"; exit 1; }
           done
 
+  # macOS and Windows.
+  #
+  # A fleet audit of the 601 repositories holding Go code found the OS axis to
+  # be the real gap, not the architecture axis: windows is absent from 54.4% of
+  # them and macOS from 48.6%, while each of riscv64, loong64, ppc64le and
+  # s390x is missing from only ~31.4%. This repository is pure computation, so
+  # there is no platform reason for the gap -- which is why the audit listed it
+  # as actionable rather than constrained.
+  #
+  # It is a job of its own rather than two more entries in the matrix above,
+  # because that matrix is about ARCHITECTURE and because its steps use POSIX
+  # shell (`set -euo pipefail`, `CGO_ENABLED=0 go build`) that the Windows
+  # runner's PowerShell reads as a command it cannot find. CGO_ENABLED moves to
+  # env and the scripted step asks for bash by name.
+  os-matrix:
+    name: ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, windows-latest]
+    env:
+      CGO_ENABLED: "0"
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-go@v7
+        with:
+          go-version: stable
+      - run: go vet ./...
+      - run: go build ./...
+      - name: Test with coverage
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Gate coverage per package, only for packages that have tests.
+          # The repo's demo `main` package has no tests (no statements to
+          # exercise) and is intentionally excluded from the gate.
+          for pkg in $(go list ./...); do
+            if ! ls "$(go list -f '{{.Dir}}' "$pkg")"/*_test.go >/dev/null 2>&1; then
+              echo "${pkg}: no tests — skipping"
+              continue
+            fi
+            go test -cover -coverprofile=cover.out "$pkg"
+            total=$(go tool cover -func=cover.out \
+              | awk '/^total:/ {print substr($3, 1, length($3)-1)}')
+            echo "${pkg} coverage: ${total}%"
+            awk -v t="$total" -v m="$COVERAGE_MIN" \
+              'BEGIN { exit (t+0 >= m+0) ? 0 : 1 }' \
+              || { echo "coverage ${total}% < ${COVERAGE_MIN}%"; exit 1; }
+          done
+
   emulated:
     name: emulated ${{ matrix.arch }}
     runs-on: ubuntu-latest
