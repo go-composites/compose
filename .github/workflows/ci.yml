@@ -85,8 +85,9 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          # Same per-package gate as `native`: the demo `main` package has no
-          # tests and no statements to exercise, and is excluded there too.
+          # Gate coverage per package, only for packages that have tests.
+          # The repo's demo `main` package has no tests (no statements to
+          # exercise) and is intentionally excluded from the gate.
           for pkg in $(go list ./...); do
             if ! ls "$(go list -f '{{.Dir}}' "$pkg")"/*_test.go >/dev/null 2>&1; then
               echo "${pkg}: no tests — skipping"
@@ -100,7 +101,6 @@ jobs:
               'BEGIN { exit (t+0 >= m+0) ? 0 : 1 }' \
               || { echo "coverage ${total}% < ${COVERAGE_MIN}%"; exit 1; }
           done
-
 
   emulated:
     name: emulated ${{ matrix.arch }}
