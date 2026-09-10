@@ -5,7 +5,7 @@ go 1.26.4
 require (
 	github.com/go-composites/error v0.0.0-20260903220219-cc4a1228280c
 	github.com/go-composites/result v0.0.0-20260904101956-f4b09f308e35
-	github.com/onsi/ginkgo/v2 v2.32.1
+	github.com/onsi/ginkgo/v2 v2.32.2
 	github.com/onsi/gomega v1.43.0
 )
 
