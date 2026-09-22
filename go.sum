@@ -12,8 +12,8 @@ github.com/go-composites/error v0.0.0-20260918235114-2990a9d33571 h1:sAATRX+RiNm
 github.com/go-composites/error v0.0.0-20260918235114-2990a9d33571/go.mod h1:PktkN9Q+mY241fMljuQNqv/W9xK3hwI0YMu41Es3rIw=
 github.com/go-composites/null v0.0.0-20260903220223-c1d743488d23 h1:CrztNkLeRiOTNW7QIIASY7bjwUiK78iUxgYbUpoyIWI=
 github.com/go-composites/null v0.0.0-20260903220223-c1d743488d23/go.mod h1:6cSkTkpvobmk2/FSOCRu928lYmWCp87HyCSffyQFhVk=
-github.com/go-composites/result v0.0.0-20260912234301-de30d2f90af6 h1:JqG/HsFXf/0DeKDehw+HkcNHmg6wgOAmkN8DMwGLjoM=
-github.com/go-composites/result v0.0.0-20260912234301-de30d2f90af6/go.mod h1:/QAMaaXZd9hzuB3Xtx6Iwz4NLC20KtqCuBZwTqbz+4U=
+github.com/go-composites/result v0.0.0-20260920235032-53e0a08ef62b h1:BbVbZIlIYsO4wAOrE4uvFZYH5oi9xy0R7Lj+wVd8Xbg=
+github.com/go-composites/result v0.0.0-20260920235032-53e0a08ef62b/go.mod h1:yewx5gc3ZJrf5Me7mtb1SGHVn2AT5B7icTh3c+U7Hbk=
 github.com/go-logr/logr v1.4.3 h1:CjnDlHq8ikf6E492q6eKboGOC0T8CDaOvkHCIg8idEI=
 github.com/go-logr/logr v1.4.3/go.mod h1:9T104GzyrTigFIr8wt5mBrctHMim0Nb2HLGrmQ40KvY=
 github.com/go-task/slim-sprig/v3 v3.0.0 h1:sUs3vkvUymDpBKi3qH1YSqBQk9+9D/8M2mN1vB6EwHI=
