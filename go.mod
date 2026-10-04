@@ -1,6 +1,6 @@
 module github.com/go-composites/compose
 
-go 1.26.4
+go 1.27.1
 
 require (
 	github.com/go-composites/error v0.0.0-20260926002113-8ebf8341ff74
