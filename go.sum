@@ -10,10 +10,10 @@ github.com/gkampitakis/go-snaps v0.5.15 h1:amyJrvM1D33cPHwVrjo9jQxX8g/7E2wYdZ+01
 github.com/gkampitakis/go-snaps v0.5.15/go.mod h1:HNpx/9GoKisdhw9AFOBT1N7DBs9DiHo/hGheFGBZ+mc=
 github.com/go-composites/error v0.0.0-20261004233631-3186f2071cf7 h1:y/vfFSu9CiyYEVCAquikAd3woEWnwunD6t0dlW9pCXk=
 github.com/go-composites/error v0.0.0-20261004233631-3186f2071cf7/go.mod h1:oaGLKIanvisvXV+zLiCl2Rd19+DlE32FlVyFYxlpd7w=
-github.com/go-composites/null v0.0.0-20260903220223-c1d743488d23 h1:CrztNkLeRiOTNW7QIIASY7bjwUiK78iUxgYbUpoyIWI=
-github.com/go-composites/null v0.0.0-20260903220223-c1d743488d23/go.mod h1:6cSkTkpvobmk2/FSOCRu928lYmWCp87HyCSffyQFhVk=
-github.com/go-composites/result v0.0.0-20261004231234-403cbfca76c4 h1:4o/APh+9yJx5racrogFbWwHVF9ukbar3EIIE9jST7Gg=
-github.com/go-composites/result v0.0.0-20261004231234-403cbfca76c4/go.mod h1:n/tDZ6aosz+xmn27YPda9GXsbZy5WzCu+jJ1KVc/GW4=
+github.com/go-composites/null v0.0.0-20261004234613-b811f56c1c66 h1:d9M57pBeoHSn+7cY7GqMAFqrRtD+EQi8MZZkv7cOHU0=
+github.com/go-composites/null v0.0.0-20261004234613-b811f56c1c66/go.mod h1:LDeybE7/67ZQOTbvo/ciq0kGnmJ/0cJuXJKJLXcG01g=
+github.com/go-composites/result v0.0.0-20261006020718-14f01380a20a h1:RaxB1csOtCc2TdEg64tGgggOCi8uJ6GqUbtVn9Ig9aE=
+github.com/go-composites/result v0.0.0-20261006020718-14f01380a20a/go.mod h1:sDVM8sl3h9EPhGuv6IuoS5F+wSMm9yB1HmZa02PKplk=
 github.com/go-logr/logr v1.4.3 h1:CjnDlHq8ikf6E492q6eKboGOC0T8CDaOvkHCIg8idEI=
 github.com/go-logr/logr v1.4.3/go.mod h1:9T104GzyrTigFIr8wt5mBrctHMim0Nb2HLGrmQ40KvY=
 github.com/go-task/slim-sprig/v3 v3.0.0 h1:sUs3vkvUymDpBKi3qH1YSqBQk9+9D/8M2mN1vB6EwHI=
