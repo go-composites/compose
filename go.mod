@@ -3,7 +3,7 @@ module github.com/go-composites/compose
 go 1.27.1
 
 require (
-	github.com/go-composites/error v0.0.0-20261031224832-70f51e843a7d
+	github.com/go-composites/error v0.0.0-20261104015158-766d8cb306ef
 	github.com/go-composites/result v0.0.0-20261102011533-cd3658257f2b
 	github.com/onsi/ginkgo/v2 v2.34.0
 	github.com/onsi/gomega v1.44.0

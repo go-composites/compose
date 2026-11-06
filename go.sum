@@ -8,8 +8,8 @@ github.com/gkampitakis/go-diff v1.3.2 h1:Qyn0J9XJSDTgnsgHRdz9Zp24RaJeKMUHg2+PDZZ
 github.com/gkampitakis/go-diff v1.3.2/go.mod h1:LLgOrpqleQe26cte8s36HTWcTmMEur6OPYerdAAS9tk=
 github.com/gkampitakis/go-snaps v0.5.15 h1:amyJrvM1D33cPHwVrjo9jQxX8g/7E2wYdZ+01KS3zGE=
 github.com/gkampitakis/go-snaps v0.5.15/go.mod h1:HNpx/9GoKisdhw9AFOBT1N7DBs9DiHo/hGheFGBZ+mc=
-github.com/go-composites/error v0.0.0-20261031224832-70f51e843a7d h1:ANPqsRT/sBxDL0dqNgWLkwMupeUWo9L90QkywIY3s7w=
-github.com/go-composites/error v0.0.0-20261031224832-70f51e843a7d/go.mod h1:yP1AC0BVW999E48ETxhPT8ph0fKgVzG5UavnSe2RtK4=
+github.com/go-composites/error v0.0.0-20261104015158-766d8cb306ef h1:TkUmEydSMXHh9W3buyxIcCpieIuWpckM10q10Zg2/1k=
+github.com/go-composites/error v0.0.0-20261104015158-766d8cb306ef/go.mod h1:ctI5AT14ROySZ9eS3fIYGiwlPnpZRlPhGqpFuOTpZ5k=
 github.com/go-composites/null v0.0.0-20261031224807-35430d41335f h1:d9VfgiulPwOVRxJM6U92BAZciPZuT6Qc988sd69K6+I=
 github.com/go-composites/null v0.0.0-20261031224807-35430d41335f/go.mod h1:LDeybE7/67ZQOTbvo/ciq0kGnmJ/0cJuXJKJLXcG01g=
 github.com/go-composites/result v0.0.0-20261102011533-cd3658257f2b h1:QTgaSx4qMzv5FWWxYdJLOkMdCvFBjJwzEe1yb+tXDzo=
